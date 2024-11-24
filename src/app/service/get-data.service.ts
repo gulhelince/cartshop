@@ -117,7 +117,7 @@ export class GetDataService {
       pdPrice: 200,
       pdCategory: "fashion",
       pdSubCategory: "tshirt",
-      pdImg: "../../assets/images/productimg/men-fashion-2.webp",
+      pdImg: "../../assets/images/toys.jpg",
       pdSize: ["S", "M", "L", "XL"]
     },
     {
@@ -127,7 +127,7 @@ export class GetDataService {
       pdPrice: 500,
       pdCategory: "fashion",
       pdSubCategory: "tshirt",
-      pdImg: "../../assets/images/productimg/men-fashion-3.webp",
+      pdImg: "../../assets/images/toys.jpg",
       pdSize: ["S", "M", "L", "XL"]
 
     },
@@ -138,7 +138,7 @@ export class GetDataService {
       pdPrice: 800,
       pdCategory: "fashion",
       pdSubCategory: "tshirt",
-      pdImg: "../../assets/images/productimg/women-fashion-1.webp",
+      pdImg: "../../assets/images/toys.jpg",
       pdSize: ["S", "M", "L", "XL"]
     },
     {
@@ -148,7 +148,7 @@ export class GetDataService {
       pdPrice: 550,
       pdCategory: "fashion",
       pdSubCategory: "jeans",
-      pdImg: "../../assets/images/productimg/men-fashion-jeans-1.webp",
+      pdImg: "../../assets/images/toys.jpg",
       pdSize: [30, 32, 34]
     },
     {
@@ -158,7 +158,7 @@ export class GetDataService {
       pdPrice: 1500,
       pdCategory: "fashion",
       pdSubCategory: "jeans",
-      pdImg: "../../assets/images/productimg/women-fashion-jeans-1.webp",
+      pdImg: "../../assets/images/toys.jpg",
       pdSize: [26, 28, 30, 32, 34]
     },
     {

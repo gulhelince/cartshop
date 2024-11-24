@@ -6,9 +6,6 @@
     </div>
 
     <div class="row" *ngIf="totalCart > 0">
-
-
-
         <div class="col-lg-8 col-12 cartBox">
             <!-- cart content  -->
             <div class="row mt-5 mb-5" *ngFor="let data of getCartData">
@@ -26,11 +23,7 @@
                             <input type="number" class="col-lg-1" value="{{data.plusMinusCounter}}" disabled>
                             <button class="btn btn-sm btn-dark" [disabled]="data.plusMinusCounter < 5 ? false :true " (click)="plusMinusCount(data,'plus')">+</button>   
                         </div>
-
-
-
                 </div>
-
             </div>
 
         </div>
@@ -56,14 +49,11 @@
                     <span class="float-end"> <i class="bi bi-currency-rupee"></i> {{totalAmount | number}}</span>
                 </p>
                 <div class="clearfix mb-5"></div>
-
                 <button type="button" class="btn btn-md btn-warning col-12" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Place order <i class="bi bi-arrow-right"></i></button>
             </div>
-
         </div>
 
 
-        
 
     </div>
 

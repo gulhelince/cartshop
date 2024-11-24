@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
 
   getCategorisData:any;
   getApplianceProductData:any=[];
+  getFashionProductData:any=[];
 
   ngOnInit(): void {
     this.getCategorisData = this.getData.categoriesData;
@@ -21,6 +22,12 @@ export class HomeComponent implements OnInit {
       {
         this.getApplianceProductData.push(ele);
       }
+
+      if(ele.pdCategory=='fashion')
+        {
+            this.getFashionProductData.push(ele);
+        }
+    
     });
   }
 
